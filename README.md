@@ -1,4 +1,4 @@
-# typescript-playground
+# Typescript-playground
 
 Playing with 
 
