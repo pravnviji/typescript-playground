@@ -2,5 +2,5 @@
 
 Playing with 
 
-Interface vs Types
-Nullish
+ - Interface vs Types
+ - Nullish & Optional Chaining
