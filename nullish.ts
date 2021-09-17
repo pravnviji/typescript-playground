@@ -22,7 +22,7 @@ const carl: Person = {
 const mark: Person = {
     identityDocuments:[{
         name: 'Mark',
-        validateName: () => 'Spectre'
+        validateName: () => 'Print validdateName function spectre Spectre'
     }]
 }
 
@@ -35,3 +35,21 @@ people.forEach((person) =>{
 
     if(SCREAM != null ) console.log(SCREAM);
 });
+
+
+/** Easy example for Nullish*/
+
+console.log(0 || "Zero");
+console.log(0 ?? "Zero");
+console.log("" || "Empty String");
+console.log("" ?? "Empty String");
+
+/** Example for Optional Chaining */
+
+const x = JSON.parse(JSON.stringify({
+    y: {
+        name:"value"
+    }
+}));
+
+console.log(x.y?.z);
