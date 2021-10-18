@@ -250,7 +250,12 @@ interface empBranchDetails
   workbranch: string;
 }
 
-const employeBranch: empBranchDetails = {
+type exmpBranchDetailType = Omit<EmployeeDetails, "dependantDetails" | "workAnniversary"> & {
+  workbranch: string;
+}
+
+
+const employeBranch: exmpBranchDetailType = {
   workbranch: "KL Sentral",
   empID: "01222",
   empName: "Praveen",
